@@ -1,0 +1,80 @@
+body{ max-width: 5000px;
+
+}
+
+.bg-gradient {
+  height: 600vh;
+  width: 100%;
+  background-image: linear-gradient(#a0843cc6,#88c37a,#6363cd,#e6e68c);
+
+}
+h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+  h2 {
+    color: rgb(0, 0, 0  );
+  }
+
+p {
+    size: 50px;
+}
+.p-1 {
+  color: cornsilk;
+  font-weight: bold;
+
+}
+
+.hari{
+  width: 400px;
+  height: 500px;
+  align-self: center;
+}
+
+.img-gallery {
+  width: 80%;
+  margin: 100px auto 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 60px;
+}
+
+.img-gallery img{
+  width: 100%;
+  height: 80%;
+  cursor: pointer;
+}
+   
+.p-2 {
+  color: cornsilk;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+.insta{
+  color: beige;
+  transition: 0.3s;
+}
+.insta:hover{
+  color: black;
+}
+.link {
+  color: beige;
+  transition: 0.3s;
+}
+.link:hover {
+  color: black;
+}
+.twitter { 
+  color: beige;
+  transition: 0.3s
+}
+.twitter:hover {
+  color: black;
+}
+.yt {
+  color: beige;
+  transition: 0.3s;
+}
+.yt:hover {
+  color: black;
+}
